@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main {
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 24px;
+  margin-top: 30px;
+  box-shadow: 0 2px 8px #eee;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+textarea {
+  resize: vertical;
+  min-height: 60px;
+  padding: 10px;
+  font-size: 1em;
+}
+button {
+  background: #83bfff;
+  color: #222;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+ul#messageList {
+  list-style: none;
+  padding: 0;
+}
+ul#messageList li {
+  background: #f1f5ff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+ul#messageList ul {
+  margin: 8px 0 0 16px;
+  padding-left: 15px;
+  color: #444;
+  font-size: 0.97em;
+}
